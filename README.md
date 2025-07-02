@@ -28,6 +28,11 @@ Under the hood, the script uses a large Python dictionary with many predefined c
 
 All suggestions, ideas, and feature requests are welcome! Feel free to open an issue or contribute via pull request.
 
-## Base Project
+## Notice on Third-Party Code
 
-This project is built around and relies on the official [scrcpy](https://github.com/Genymobile/scrcpy) tool. Please make sure it is installed and available on your system.
+This project includes elements based on the [scrcpy](https://github.com/Genymobile/scrcpy) project,  
+which is licensed under the Apache License, Version 2.0.
+
+Use of this portion complies with the terms of the Apache 2.0 license.  
+See [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0) for details.
+
