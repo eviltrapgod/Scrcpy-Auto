@@ -10,16 +10,17 @@ Y88b  d88P Y88b  d88P 888  T88b  Y88b  d88P 888            888            d88888
 """)
 
 COMMAND_DICT = {
-    1: "--version",
-    2: "--version",
-    3: "--version",
-    4: "--version",
-    5: "--version",
-    6: "--version",
-    7: "--version",
-    8: "--version",
-    9: "--version",
-    10:"--version",
+    # 0: {"command": "None", "desc": "Your command"},
+    1: {"command": "--version", "desc": "Show version"},
+    2: {"command": "--version", "desc": "Show version"},
+    3: {"command": "--version", "desc": "Show version"},
+    4: {"command": "--version", "desc": "Show version"},
+    5: {"command": "--version", "desc": "Show version"},
+    6: {"command": "--version", "desc": "Show version"},
+    7: {"command": "--version", "desc": "Show version"},
+    8: {"command": "--version", "desc": "Show version"},
+    9: {"command": "--version", "desc": "Show version"},
+    10: {"command": "--version", "desc": "Show version"},
 
 }
 

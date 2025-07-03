@@ -4,10 +4,14 @@ from config import START_ASCII
 
 
 def main():
+    print(START_ASCII)
     while True:
-        print(START_ASCII)
         selected_mode = mode_selector.start_select()
-        run_module.run_scrcpy(selected_mode)
+        if selected_mode == 0:
+            user_command = mode_selector.select_user_command()
+            run_module.run_scrcpy(selected_mode, user_command)
+        elif selected_mode != 0:
+            run_module.run_scrcpy(selected_mode, None)
 
 
 if __name__ == "__main__":
