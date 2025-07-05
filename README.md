@@ -25,10 +25,10 @@ You can also use your own scrcpy commands and parameters by simply entering them
    ```bash
    python3 main.py
    ```
-   or start 
-6. Follow the console menu: just enter the number of the action you want.
+   or start `main.py` in Your file manager
+7. Follow the console menu: just enter the number of the action you want.
 
-7. I recommend turning off the command list display when starting, otherwise it becomes difficult to understand anything in the console.
+8. I recommend turning off the command list display when starting, otherwise it becomes difficult to understand anything in the console.
 
 
 ## Wishes
