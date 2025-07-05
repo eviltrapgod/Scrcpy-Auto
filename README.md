@@ -23,7 +23,7 @@ You can also use your own scrcpy commands and parameters by simply entering them
 4. Or download the ZIP archive via GitHub.
 5. Navigate to the project folder and run the script:
    ```bash
-   python3 scrcpy_auto.py
+   python3 main.py
    ```
    or start 
 6. Follow the console menu: just enter the number of the action you want.
