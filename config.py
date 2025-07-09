@@ -1,5 +1,4 @@
-import time
-
+VERSION = "0.4"
 
 START_ASCII = """                                                            
  .d8888b.   .d8888b.  8888888b.   .d8888b.  8888888b.  Y88b   d88P              d8888 888     888 88888888888  .d88888b.  
@@ -12,15 +11,21 @@ Y88b  d88P Y88b  d88P 888  T88b  Y88b  d88P 888            888            d88888
  "Y8888P"   "Y8888P"  888   T88b  "Y8888P"  888            888           d88P     888  "Y88888P"      888      "Y88888P"  
 """
 
-END_MSG = "TO CANCEL PROGRAM PRESS CTRL+C"
+
+
+END_MSG = """
+
+TO CANCEL PROGRAM PRESS CTRL+C
+
+"""
 
 COMMAND_DICT = {
     0: {"command": "user command", 
         "desc": "Your command"},
     1: {"command": "--video-codec=h265 -m1920 --max-fps=60 -K ",
-        "desc": "Capture the screen in H.256(better quality) | 1920x1080 60fps | control | no audio"},
+        "desc": "Output the screen in H.256(better quality) | 1920x1080 60fps | control | no audio"},
     2: {"command": "--video-codec=h264 -m1920 --max-fps=60  -K ", 
-        "desc": "Capture the screen in H.254(better compatibility) | 1920x1080 60fps | control | no audio "},
+        "desc": "Output the screen in H.254(better compatibility) | 1920x1080 60fps | control | no audio "},
     3: {"command": "--video-source=camera --video-codec=h265 --camera-size=1920x1080 --record=./Videos/CameraCast.mp4", 
         "desc": "Record the device camera in H.265(Better quality) at 1920x1080 and microphone to Videos/CameraCast.mp4"},
     4: {"command": "--video-source=camera --video-codec=h264 --camera-size=1920x1080 --record=./Videos/CameraCast.mp4", 
@@ -58,4 +63,10 @@ COMMAND_DICT = {
     20: {"command": "--version", 
          "desc": "Show version scrcpy"},
 }
+
+# TODO: Add more commands.
+
+
+
+
 
